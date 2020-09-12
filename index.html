@@ -1,0 +1,74 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+
+   <!-- fits the screen according to the device's width and height -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta charset="utf-8">
+
+  <title>Whack A Mole</title>
+  <!-- to add favicon(logo in side of title) -->
+  <link rel="icon" href="images/mole.png" type="image/png">
+  
+  <meta name="description" content="scroll">
+  <meta name="author" content="SitePoint">
+
+  <link rel="stylesheet" href="whackkacss.css">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+  <!--   font-family: 'Raleway', sans-serif;    -->
+  <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap" rel="stylesheet">
+  <!-- font-family: 'Ubuntu Condensed', sans-serif; -->
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap" rel="stylesheet">
+  <!-- font-family: 'Josefin Sans', sans-serif; -->
+  
+  <!-- simple text to <p> -->
+  <link href="https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300&display=swap" rel="stylesheet">
+  <!-- font-family: 'Hind Madurai', sans-serif; -->
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+
+<body>
+  
+   <section class="container">
+
+        <h4 class="title">whack-a-mole! <span class="score">0</span></h3>
+        <div class="level-btn">
+           <button class="easy btn">Easy</button>
+           <button class="medium btn">Medium</button>
+           <button class="hard btn">Hard</button>
+        </div>
+        <h6 class="highscore">Highscore: <span class="hscore">0</span></h6>
+        <button onclick="startGame()" class="start-btn">Start</button>
+
+        <div class="game">
+          
+           <div class="hole hole1">
+              <div class="mole"></div>
+           </div>
+           <div class="hole hole2">
+              <div class="mole"></div>
+          </div>
+           <div class="hole hole3">
+              <div class="mole"></div>
+          </div>
+           <div class="hole hole4">
+              <div class="mole"></div>
+          </div>
+           <div class="hole hole5">
+              <div class="mole"></div>
+          </div>
+           <div class="hole hole6">
+              <div class="mole"></div>
+          </div>
+
+        </div>
+   
+   </section>
+        
+
+    <script src="whackkajs.js"></script>
+</body>
+</html>
