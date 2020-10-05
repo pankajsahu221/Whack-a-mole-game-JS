@@ -1,3 +1,4 @@
+## Whach a mole game
 A simple JS game to play whack a mole and has a feature to store high score using local storage...
 
 Wanna Play the Game
